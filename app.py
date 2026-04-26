@@ -301,7 +301,7 @@ def main(file_path):
     return equi_elements, t_list[1]
 
 if __name__ == "__main__":
-    file_path = r"C:\Users\USER\OneDrive\Desktop\(1)Ceres_Obv.xlsx"
+    file_path = r"C:\Users\USER\OneDrive\Desktop\(1)Ceres_Obv.xlsx"  #Update with your actual file path here
     equi_elements, epoch = main(file_path)
     t_target = Time("2025-11-12 00:00:00")
     pos_geo = get_geocentric_cartesian(equi_elements, t_target, epoch)
